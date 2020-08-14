@@ -1,0 +1,29 @@
+# Site settings
+title: My Little Website
+tagline: "Changing the world, one uninspired quote at a time"
+url: "http://yourwebsite.com" # The base hostname & protocol for your site. Use it if you need absolute URL's
+
+# Social
+socialimg: /img/social.jpg # be sure to change this image
+facebook: fbusername
+twitter: twusername
+github: ghusername
+googleplus: gusername
+instagram: igusername
+
+
+# Use this for production
+#sass:
+#    style: compressed
+
+defaults:  
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:  
+  - "*.config.js"
+  - "package*.json"
+  - "assets"
+  - "node_modules"
