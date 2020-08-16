@@ -4,6 +4,8 @@ tagline: "Changing the world, one uninspired quote at a time"
 url: "" # The base hostname & protocol for your site. Use it if you need absolute URL's
 baseurl: "/feige" 
 
+theme: null
+
 # Social
 socialimg: /img/social.jpg # be sure to change this image
 facebook: fbusername
@@ -11,6 +13,9 @@ twitter: twusername
 github: ghusername
 googleplus: gusername
 instagram: igusername
+
+plugins:
+- jekyll-menus
 
 
 # Use this for production

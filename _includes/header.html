@@ -1,0 +1,12 @@
+<header class="sticky top-0 bg-white flex justify-between px-6 py-3 z-50">
+  <a href="{{'/' | relative_url}}" class="logo">Logo</a>
+
+<nav>
+{% for item in site.menus.header %}
+  <span class="menu-item-{{ loop.index }}">
+    <a href="{{ item.url | relative_url }}" title="Go to {{ item.title }}" {% if item.url == page.url %}class="font-bold"{% endif %}>{{ item.title }}</a>
+  </span>
+{% endfor %}
+</nav>
+
+</header>
