@@ -6,3 +6,10 @@ Most themes I see say "starter theme", but they're filled with stupid SASS grids
 It's set up for SASS, meta tags, favicons, a home page, etc. Everything else is up to you.
 
 Now start building some dope-ass shit, playboy.
+
+# development
+npm run prod
+
+- removes manifest.yml
+- cleans jekyll cache and _site
+- builds jekyll site

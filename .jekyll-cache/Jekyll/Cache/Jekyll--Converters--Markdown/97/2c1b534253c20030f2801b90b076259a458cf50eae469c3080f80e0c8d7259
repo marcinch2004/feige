@@ -1,0 +1,25 @@
+I")<ul class="photo-gallery flex">
+  
+    <a href="images/image-1.jpg">
+      <li>
+        <img src="images/image-1.jpg" alt="Fela-1" />
+        <figcaption>Babcia i Dziadek</figcaption>
+      </li>
+    </a>
+  
+    <a href="images/image-2.jpg">
+      <li>
+        <img src="images/image-2.jpg" alt="Fela-2" />
+        <figcaption>Na Gubałówce</figcaption>
+      </li>
+    </a>
+  
+    <a href="images/image-3.jpg">
+      <li>
+        <img src="images/image-3.jpg" alt="Fela-3" />
+        <figcaption>Przed domem</figcaption>
+      </li>
+    </a>
+  
+</ul>
+:ET

@@ -11,6 +11,7 @@ module.exports = {
       require('tailwindcss'),
       require('cssnano')(),
       require('autoprefixer'),
+      require('@tailwindcss/typography'),
       ...process.env.NODE_ENV === 'production'
           ? [purgecss]
           : []

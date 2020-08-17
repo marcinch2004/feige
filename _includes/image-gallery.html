@@ -1,0 +1,10 @@
+<ul class="photo-gallery flex">
+  {% for image in page.gallery %}
+    <a href="{{ image.link | relative_url}}">
+      <li>
+        <img src="{{ image.image_path | relative_url}}" alt="{{ image.title}}"/>
+        <figcaption>{{ image.caption }}</figcaption>
+      </li>
+    </a>
+  {% endfor %}
+</ul>

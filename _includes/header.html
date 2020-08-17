@@ -2,11 +2,12 @@
   <a href="{{'/' | relative_url}}" class="logo">Logo</a>
 
 <nav>
-{% for item in site.menus.header %}
-  <span class="menu-item-{{ loop.index }}">
-    <a href="{{ item.url | relative_url }}" title="Go to {{ item.title }}" {% if item.url == page.url %}class="font-bold"{% endif %}>{{ item.title }}</a>
-  </span>
+{% for item in site.data.navigation %}
+  <a href="{{ site.baseurl }}/{{ item.link }}" {% if item.link == page.url %}class="active"{% endif %}>
+  {{ item.name }}
+</a>
 {% endfor %}
+
 </nav>
 
 </header>

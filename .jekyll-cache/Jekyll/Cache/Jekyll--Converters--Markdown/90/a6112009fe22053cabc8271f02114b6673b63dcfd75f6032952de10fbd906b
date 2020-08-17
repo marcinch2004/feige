@@ -1,0 +1,27 @@
+I"�<p>Takie treści, to się zmieści. Niesamowite, chyba to się uda : )</p>
+
+<ul class="photo-gallery flex">
+  
+    <a href="/feige/images/image-1.jpg">
+      <li>
+        <img src="/feige/images/image-1.jpg" alt="Fela-1" />
+        <figcaption>Babcia i Dziadek</figcaption>
+      </li>
+    </a>
+  
+    <a href="/feige/images/image-2.jpg">
+      <li>
+        <img src="/feige/images/image-2.jpg" alt="Fela-2" />
+        <figcaption>Na Gubałówce</figcaption>
+      </li>
+    </a>
+  
+    <a href="/feige/images/image-3.jpg">
+      <li>
+        <img src="/feige/images/image-3.jpg" alt="Fela-3" />
+        <figcaption>Przed domem</figcaption>
+      </li>
+    </a>
+  
+</ul>
+:ET
